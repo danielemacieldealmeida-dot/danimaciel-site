@@ -312,6 +312,88 @@ footer{padding-block:0 40px;color:var(--mut);font-size:.9rem;display:flex;justif
   section{padding-block:52px}
 }
 @media(max-width:520px){.grid,.steps{grid-template-columns:1fr}.card.feat{grid-column:auto}.stats{grid-template-columns:1fr}.stats div{border-right:0;border-bottom:1px solid rgba(255,255,255,.14)}.clients span:not(:last-child)::after{margin-left:14px}.clients{gap:8px 14px}.nl{gap:14px}.nl .btn{display:none}}
+/* ===== celular: versão compacta ===== */
+@media(max-width:600px){
+  body{font-size:.95rem;line-height:1.55}
+  section{padding-block:40px}
+  h1{font-size:2.15rem}
+  h2{font-size:1.65rem}
+  h3{font-size:1.05rem}
+  .eyebrow{font-size:.62rem;margin-bottom:10px}
+  .sec-head{margin-bottom:20px;gap:10px}
+  .sec-head p{font-size:.9rem}
+  nav{padding-block:12px}
+  .logo img{height:52px}
+  .nl{gap:14px}.nl a.t{font-size:.88rem}
+  .btn{padding:.75em 1.25em;font-size:.9rem;box-shadow:0 4px 0 var(--p-deep)}
+  .btn.alt{box-shadow:0 4px 0 var(--line),inset 0 0 0 2px var(--ink)}
+  .hero{gap:26px;padding-block:6px 36px}
+  .lead{font-size:.98rem;margin-top:14px}
+  .cta{margin-top:20px;gap:10px}
+  .chips{margin-top:18px;gap:6px}.chips a{font-size:.62rem;padding:.6em .8em}
+  .desk{max-width:300px;border-radius:26px}
+  .desk .badge{font-size:.55rem;padding:.6em .8em}
+  .desk .go{display:none}
+  .stats{grid-template-columns:1fr 1fr;border-radius:22px;padding:4px}
+  .stats div{padding:14px;border-right:1px solid rgba(255,255,255,.14);border-bottom:1px solid rgba(255,255,255,.14)}
+  .stats div:nth-child(2n){border-right:0}
+  .stats div:nth-child(n+3){border-bottom:0}
+  .stats b{font-size:1.3rem}
+  .stats span{font-size:.6rem}
+  .filters{flex-wrap:nowrap;overflow-x:auto;margin-inline:-16px;padding-inline:16px;scrollbar-width:none}
+  .filters::-webkit-scrollbar{display:none}
+  .filters button{flex:none;font-size:.8rem;padding:.6em .9em}
+  .grid{grid-template-columns:1fr 1fr;gap:12px}
+  .card{border-radius:16px}
+  .card .t{padding:10px 12px 12px;gap:3px}
+  .card .t p,.card .hot{display:none}
+  .card .tag{font-size:.52rem;letter-spacing:.06em}
+  .card .t h3{font-size:.92rem}
+  .card .t h3::after{display:none}
+  .card.feat{grid-column:span 2}
+  .card.feat .t p{display:block;font-size:.85rem}
+  .card.feat h3{font-size:1.2rem}
+  .more{margin-top:20px}
+  .svc{padding-block:18px;gap:8px}
+  .svc h3{font-size:1.2rem}
+  .svc p{font-size:.92rem}
+  .svc ul{font-size:.68rem;gap:4px}
+  .steps{grid-template-columns:1fr 1fr;gap:10px}
+  .steps li{padding:14px;border-radius:16px;gap:4px}
+  .steps b{font-size:1rem}
+  .steps span{font-size:.82rem;line-height:1.4}
+  .peek{aspect-ratio:4/3;border-radius:22px}
+  .about{gap:24px}
+  .me{max-width:240px}
+  .me img{border-radius:24px;border-width:4px}
+  .me figcaption{font-size:.8rem;bottom:14px}
+  .about .big{font-size:1.15rem}
+  .about .txt{gap:12px}
+  .txt .facts{grid-template-columns:1fr;padding:16px;gap:10px;border-radius:18px}
+  .txt .facts div{border-right:0;padding:0 0 10px;border-bottom:1px solid rgba(255,255,255,.22)}
+  .txt .facts div:last-child{border-bottom:0;padding:0}
+  .txt .facts b{font-size:1.2rem;margin-bottom:2px}
+  .txt .facts span{font-size:.66rem}
+  .cv{gap:12px}
+  .cv-col{padding:16px;border-radius:18px;gap:12px}
+  .cv-item b{font-size:1rem}
+  .cv-item p{font-size:.85rem}
+  .cv-btns .btn{flex:1;justify-content:center}
+  .clients{gap:6px 10px}
+  .clients span{font-size:.9rem}
+  .clients span:not(:last-child)::after{margin-left:10px}
+  .contato{border-radius:26px;padding:22px 18px;gap:22px}
+  .direct a{font-size:.95rem}
+  .direct span{width:72px;font-size:.6rem}
+  .pick label{font-size:.8rem;padding:.55em .8em}
+  .contato textarea{min-height:90px}
+  .form-foot .btn{width:100%;justify-content:center}
+  .fim{padding-block:36px 48px}
+  .bubble{font-size:.95rem}
+  .pal{width:120px;height:120px}
+  footer{font-size:.78rem;flex-direction:column}
+  .foot-links{gap:12px}
+}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 </style>
 
